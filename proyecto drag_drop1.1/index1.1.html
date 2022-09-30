@@ -1,0 +1,134 @@
+<!--
+    ENTIDAD: CENTRO DE BIOTECNOLOGICO AGROPECUARIO 
+    FICHA:2558346
+    PROGRAMA:ANALASIS  Y DESARROLLO DE SOFTWARE
+    AUTOR: DIEGO DIAZ RODRIGUEZ
+    OBJETIVO:IMPLEMENTACION DE CARDS EN UN CONTAINER Y INSERTAR EL EFECTO DRAG AND DROP A 
+    LAS CARDS
+    FECHA DE CREACION:21 DE AGOSTO DEL 2022
+    VERSION:1.1.0
+    W3C:OK
+ -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cards Mobiles</title>
+        <link rel="stylesheet" href="css/main.css">
+        <!-- libreria boxicons de css de redes sociales -->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body>
+        <!-- cards -->
+        <div class="drop">
+            <h1 id="title" class="title-center">Kodex</h1>
+            <div class="drop_container" id="drop_items">
+                <div class="drop_card">
+                    <div class="drop_data">
+                        <img src="img/william.jpg"
+                            alt="" class="drop_img"/>
+                        <div>
+                            <h1 class="drop_nombre">William</h1>
+                            <span class="drop_perfil">Web Devolper</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#" class="drop_social">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a href="#" class="drop_social">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="#" class="drop_social">
+                            <i class="bx bxl-instagram-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="drop_card">
+                    <div class="drop_data">
+                        <img src="img/cristian.jpeg"
+                            alt="" class="drop_img">
+
+                        <div>
+                            <h1 class="drop_nombre">Cristian</h1>
+                            <span class="drop_perfil">Diseñador Grafico</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D" class="drop_social">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a href="#" class="drop_social">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="#" class="drop_social">
+                            <i class="bx bxl-instagram-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="drop_card">
+                    <div class="drop_data">
+                        <img src="img/mauricio.jpg"
+                            alt="" class="drop_img">
+
+                        <div>
+                            <h1 class="drop_nombre">Mauricio</h1>
+                            <span class="drop_perfil">Mercadeo Digital</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#" class="drop_social">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a href="#" class="drop_social">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="#" class="drop_social">
+                            <i class="bx bxl-instagram-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="drop_card">
+                    <div class="drop_data">
+                        <img src="img/diego.jpg"
+                            alt="" class="drop_img">
+
+                        <div>
+                            <h1 class="drop_nombre">Diego</h1>
+                            <span class="drop_perfil">Diseñador UI/UX</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#" class="drop_social">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a href="#" class="drop_social">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="#" class="drop_social">
+                            <i class="bx bxl-instagram-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jsDelivr :: Sortable :: Latest (https://www.jsdelivr.com/package/npm/sortablejs) -->
+        <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
+        <!-- libreria de boxicons de redes sociales -->
+        <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+
+        <!-- libreria JS del proyecto -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
